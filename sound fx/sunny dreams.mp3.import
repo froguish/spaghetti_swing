@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/sunny dreams.mp3-01814ca3117551be3f27f038dffbce3c.mp3str"
+
+[deps]
+
+source_file="res://sound fx/sunny dreams.mp3"
+dest_files=[ "res://.import/sunny dreams.mp3-01814ca3117551be3f27f038dffbce3c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

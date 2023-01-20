@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/lets make this quick.mp3-fb6307a0f67345cad6f241fdb2ba0e3f.mp3str"
+
+[deps]
+
+source_file="res://sound fx/lets make this quick.mp3"
+dest_files=[ "res://.import/lets make this quick.mp3-fb6307a0f67345cad6f241fdb2ba0e3f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

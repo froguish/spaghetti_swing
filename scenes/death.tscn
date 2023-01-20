@@ -1,0 +1,78 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://scripts/death.gd" type="Script" id=1]
+[ext_resource path="res://sound fx/sad trombone.wav" type="AudioStream" id=2]
+[ext_resource path="res://defaultTHEME.tres" type="Theme" id=3]
+[ext_resource path="res://JUST SANS REGULAR.OTF" type="DynamicFontData" id=4]
+[ext_resource path="res://sprite/background.png" type="Texture" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+size = 191
+outline_size = 14
+outline_color = Color( 0, 0, 0, 1 )
+use_filter = true
+font_data = ExtResource( 4 )
+
+[node name="death" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 8, 8 )
+texture = ExtResource( 5 )
+centered = false
+offset = Vector2( -200, -200 )
+region_enabled = true
+region_rect = Rect2( -1400, -1061, 1000, 500 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="tip-1" type="RichTextLabel" parent="."]
+anchor_left = 0.5
+anchor_top = 0.496
+anchor_right = 0.5
+anchor_bottom = 0.496
+margin_left = -440.0
+margin_top = -295.68
+margin_right = 440.0
+margin_bottom = -55.6801
+rect_clip_content = false
+custom_fonts/normal_font = SubResource( 1 )
+text = "YOU DIED"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -96.0
+margin_top = 100.0
+margin_right = 100.0
+margin_bottom = 195.0
+theme = ExtResource( 3 )
+
+[node name="retry" type="Button" parent="VBoxContainer"]
+margin_right = 196.0
+margin_bottom = 87.0
+theme = ExtResource( 3 )
+text = "Retry"
+
+[node name="quit" type="Button" parent="VBoxContainer"]
+margin_top = 91.0
+margin_right = 196.0
+margin_bottom = 178.0
+theme = ExtResource( 3 )
+text = "Quit"
+
+[node name="sad" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+volume_db = -20.101
+autoplay = true
+
+[connection signal="pressed" from="VBoxContainer/retry" to="." method="_on_retry_pressed"]
+[connection signal="pressed" from="VBoxContainer/quit" to="." method="_on_quit_pressed"]
