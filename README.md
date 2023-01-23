@@ -8,12 +8,12 @@ Cover art made in cooperation with my friend [YABO](https://twitter.com/YaBoiMcB
 
 Sound/Music Credits:
 
-[Sad Trombone](https://www.youtube.com/watch?v=GD4rXN34c8w)
-[Grapple Sound](https://www.youtube.com/watch?v=LFIlslXCoOo)
-[Spaghetti Walking](https://youtu.be/I9R2K_QED6s)
-[Soda Walking](https://www.youtube.com/watch?v=1zkz4hbcHZk)
-[Jump](https://www.youtube.com/watch?v=561qHylVC_o)
+[Sad Trombone](https://www.youtube.com/watch?v=GD4rXN34c8w)  
+[Grapple Sound](https://www.youtube.com/watch?v=LFIlslXCoOo)  
+[Spaghetti Walking](https://youtu.be/I9R2K_QED6s)  
+[Soda Walking](https://www.youtube.com/watch?v=1zkz4hbcHZk)  
+[Jump](https://www.youtube.com/watch?v=561qHylVC_o)  
 
-[Lets Make This Quick](https://youtu.be/OIF9z5-LG2U) - Title
-[Cherry Cola](https://youtu.be/I380eM9YSms) - Intro
-[Sunny Dreams](https://www.youtube.com/watch?v=SmwawZeusMU&feature=youtu.be) - Levels
+[Lets Make This Quick](https://youtu.be/OIF9z5-LG2U) - Title  
+[Cherry Cola](https://youtu.be/I380eM9YSms) - Intro  
+[Sunny Dreams](https://www.youtube.com/watch?v=SmwawZeusMU&feature=youtu.be) - Levels  
